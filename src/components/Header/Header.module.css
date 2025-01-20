@@ -1,0 +1,51 @@
+.header {
+    position: relative;
+    background-image: url('src/assets/jezael-melgoza-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 80%;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 500px #FFFFFF55, inset 5px 5px 25px #FFFFFFAA;
+    border-radius: 40px;
+}
+
+.title {
+    text-shadow: 0 0 3px #000a;
+}
+
+.hello {
+    font-style: italic;
+}
+
+.name {
+    margin: 0;
+    font-size: 5rem;
+}
+
+.image-container {
+    height: 340px;
+    padding: 20px;
+    border-radius: 999px;
+    background-image: radial-gradient(#0008 55%, #fff4 75%) ;
+}
+
+.profile-picture {
+    clip-path: circle();
+}
+
+.header:hover :last-child {
+    opacity: 1;
+}
