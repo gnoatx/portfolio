@@ -1,0 +1,21 @@
+.bio:hover :last-child {
+    opacity: 1;
+}
+
+.bio {
+    position: relative;
+    background-image: url('src/assets/kevin-laminto-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio p {
+    font-size: 1.5rem;
+    text-shadow: 0 0 3px #000000;
+}

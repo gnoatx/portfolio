@@ -1,14 +1,17 @@
 import './App.css'
 import { useState } from 'react'
 import Header from './components/Header'
+import Bio from './components/Bio'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header />
-      
+      <main id='container'>
+        <Header />
+        <Bio />
+      </main>
       https://gnoatx.github.io/javascript-lista/ // aFazer
       https://gnoatx.github.io/oracle-one-desafio-1/ // decodificador
       https://gnoatx.github.io/frontend-basico/ // hdc host
