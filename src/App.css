@@ -16,7 +16,21 @@ h1 {
 }
 
 #container {
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+.works-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.credit {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

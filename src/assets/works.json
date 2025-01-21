@@ -1,0 +1,40 @@
+{
+    "works": [
+        {
+            "title": "aFazer",
+            "link": "https://gnoatx.github.io/javascript-lista/",
+            "image": "afazer",
+            "description": "Um site com funcionalidade de lista de tarefas. Feito em HTML, CSS e JS sem nenhum framework extra. Bem estilizado, com animações."
+        },
+        {
+            "title": "G Calc",
+            "link": "https://github.com/gnoatx/react-native-calculator",
+            "image": "calculator",
+            "description": "Um aplicativo mobile com função de calculadora. Me desafiou a tentar fazer engenharia reversa e descobrir como uma calculadora é programada. Criado em React Native para celulares Android."
+        },
+        {
+            "title": "Neon Notes",
+            "link": "https://react-desafio-notas.vercel.app/",
+            "image": "neon_notes",
+            "description": "Um site com funcionalidade de bloco de notas. Permite ao usuário criar uma anotação com título e corpo, com função de editar ou excluir estas a qualquer momento. Gera uma cor aleatória para o brilho de cada nota. Criado em React."
+        },
+        {
+            "title": "Decodificador",
+            "link": "https://gnoatx.github.io/oracle-one-desafio-1/",
+            "image": "decodificador",
+            "description": "Um site com a função de codificar e decodificar textos de acordo com certas regras. Feito em HTML, CSS e JS como solução do desafio de final do curso de lógica de programação do curso ONE."
+        },
+        {
+            "title": "Sabor Brasileiro",
+            "link": "https://gnoatx.github.io/frontend-desafio-restaurante/",
+            "image": "restaurante",
+            "description": "Um dos desafios iniciais de front-end do curso de Programador Fullstack do Senai. Uma simulação de um site de restaurante onde um cliente pode ver o cardápio e fazer pedidos online através de um form."
+        },
+        {
+            "title": "hDC Host",
+            "link": "https://gnoatx.github.io/frontend-basico/",
+            "image": "hdc_host",
+            "description": "Um site exemplo para uma empresa de hospedagem de websites. Desenvolvido em HTML e CSS para o curso do Firjan Senai."
+        }
+    ]
+}

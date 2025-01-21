@@ -1,24 +1,23 @@
 import './App.css'
-import { useState } from 'react'
 import Header from './components/Header'
 import Bio from './components/Bio'
+import list from './assets/works.json'
+import Card from './components/Card'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const works = list.works
 
   return (
     <>
       <main id='container'>
         <Header />
         <Bio />
+        <h1 className='works-title'>Meus Trabalhos</h1>
+        {works.map((item) => <Card work={item} />)}
       </main>
-      https://gnoatx.github.io/javascript-lista/ // aFazer
-      https://gnoatx.github.io/oracle-one-desafio-1/ // decodificador
-      https://gnoatx.github.io/frontend-basico/ // hdc host
-      https://gnoatx.github.io/frontend-desafio-restaurante/ // restaurante
-      https://github.com/gnoatx/react-native-calculator // calculadora
-      https://react-desafio-notas.vercel.app/ // notas
-
+      <a href="https://github.com/gnoatx">
+        <footer className='credit'>Victor Gnoato @ 2025</footer>
+      </a>
     </>
   ) 
 }
