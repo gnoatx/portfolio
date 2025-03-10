@@ -12,7 +12,7 @@ type CardProps = {
 export default function Card({ work }: CardProps) {
     return (
         <>
-            <div className={style['card-background']} style={{backgroundImage: `url(src/assets/${work.image}.png)`}}>
+            <div className={style['card-background']} style={{backgroundImage: `url(/assets/${work.image}.png)`}}>
                 <div className={style.card}>
                     <div className={style['info-card']}>
                         <a href={work.link}><h2 className={style.title}>{work.title}</h2></a>
@@ -21,7 +21,7 @@ export default function Card({ work }: CardProps) {
                         </article>
                     </div>
                     <a href={work.link}>
-                        <img className={style['card-image']} src={`src/assets/${work.image}.png`} alt={work.title} />
+                        <img className={style['card-image']} src={`/assets/${work.image}.png`} alt={work.title} />
                     </a>
                 </div>
             </div>

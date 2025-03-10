@@ -10,7 +10,7 @@ export default function Header() {
                     <h1 className={style.name}>Victor Gnoato</h1>
                 </div>
                 <div className={style['image-container']}>
-                    <img className={style['profile-picture']} src="src/assets/profile.png" alt="Foto de perfil do desenvolvedor" height={300} />
+                    <img className={style['profile-picture']} src="/assets/profile.png" alt="Foto de perfil do desenvolvedor" height={300} />
                 </div>
             </div>
             <BgCredit at='jezar' name='Jezael Melgoza' photoId='layMbSJ3YOE' />

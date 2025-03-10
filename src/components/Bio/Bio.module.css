@@ -4,7 +4,7 @@
 
 .bio {
     position: relative;
-    background-image: url('src/assets/kevin-laminto-bg.jpg');
+    background-image: url('/assets/kevin-laminto-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

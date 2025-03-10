@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Bio from './components/Bio'
-import list from './assets/works.json'
+import list from '../public/assets/works.json'
 import Card from './components/Card'
 
 function App() {
