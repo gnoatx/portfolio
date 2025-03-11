@@ -20,7 +20,7 @@ export default function Card({ work }: CardProps) {
                             {work.description.split('.').slice(0,-1).map((text) => <p className={style.description}>{`${text}.`}</p>)}
                         </article>
                     </div>
-                    <a href={work.link}>
+                    <a href={work.link} className={style['image-link']}>
                         <img className={style['card-image']} src={`/assets/${work.image}.png`} alt={work.title} />
                     </a>
                 </div>

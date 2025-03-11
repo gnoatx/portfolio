@@ -50,3 +50,37 @@
     max-width: 400px;
     box-shadow: 0 0 0 1px black, 0 0 0 20px white;
 }
+
+@media (max-width: 1000px) {
+    .card-background {
+        background-attachment: local;
+        background-position: center;
+        height: 800px;
+    }
+
+    .card {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .info-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        max-width: 90%;
+    }
+
+    .card-image {
+        max-width: 85%;
+        max-height: 250px;
+    }
+
+    .image-link {
+        display: flex;
+        justify-content: center;
+    }
+}

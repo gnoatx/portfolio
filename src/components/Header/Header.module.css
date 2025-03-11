@@ -49,3 +49,32 @@
 .header:hover :last-child {
     opacity: 1;
 }
+
+@media (max-width: 1000px) {
+    .header {
+        background-position: center;
+        background-attachment: local;
+    }
+
+    .info-block {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 10px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .image-container {
+        height: 190px;
+    }
+}
