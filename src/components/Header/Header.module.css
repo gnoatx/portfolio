@@ -39,7 +39,7 @@
     height: 340px;
     padding: 20px;
     border-radius: 999px;
-    background-image: radial-gradient(#0008 55%, #fff4 75%) ;
+    background-image: radial-gradient(#0008 55%, #fff4 75%);
 }
 
 .profile-picture {
@@ -76,5 +76,6 @@
 
     .image-container {
         height: 190px;
+        background-image: radial-gradient(#0008 35%, #fff4 75%);
     }
 }
